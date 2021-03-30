@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shaima's Accounts Launcher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+       html,body{
+         font-family:'Open Sans',sans-serif;
+         font-size:14px;
+         min-height:180 px;
+         width:384px;
+       }
+       h1{
+         font-family: 'Menlo',monospace;
+         font-size:22px;
+         font-weight:400;
+         color:#f5c0c0;
+       }
+       a:link,a:visited{
+         color:black;
+         outline:0;
+         text-decoration:none;
+       }
+       img{
+         width:30 px;
+       }
+       .modal-header{
+         align-items:center;
+         border-bottom: 0.5px solid #9fd8df;
+
+       }
+       .modal-content{
+         padding: 0 22px;
+       }
+       .modal-icons{
+         border-top:0.5px solid #9fd8df;
+         height:50px;
+         width:100%;
+       }
+       .logo{
+         padding:16px;
+       }
+       .logo-icon{
+         vertical-align:text-bottom;
+         margin-right:12px;
+       }
+       .version{
+         color:#ff7171;
+         font-size:18px;
+       }
+       .flex-container{
+         display:flex;
+         justify-content:space-between;
+         padding: 10
+       }
+       .flex{
+         opacity:1;
+         transition:opacity 0.2s ease-in-out;
+         width:120px;
+        }
+        .flex:hover{
+          opacity:0.4;
+        }
+
+        .flex .fa{
+          font-size:40px;
+          color:#9fd8df;
+        }
+
+    </style>
+  </head>
+  <body>
+     <div class="modal-header">
+       <h1 class="logo">
+         <img src="images/smile.png" alt="Shaima's Accounts Launcher" class="logo-icon"> Shaima's-Accounts-Launcher<span class="version">(1.0.0)</span>
+       </h1>
+     </div>
+     <div class="modal-content">
+       <p>Easily access your accounts</p>
+     </div>
+     <div class="modal-icons">
+       <div class="flex-container">
+         <div class="flex">
+           <a href="https://twitter.com/HaqueShaima" target="_blank">
+            <i class = "fa fa-twitter"></i>
+           </a>
+         </div>
+         <div class="flex">
+           <a href="https://github.com/SHAIMA-HAQUE" target="_blank">
+            <i class = "fa fa-github"></i>
+           </a>
+         </div>
+         <div class="flex">
+           <a href="https://www.linkedin.com/in/shaima-haque-9951861b7/" target="_blank">
+            <i class = "fa fa-linkedin"></i>
+           </a>
+         </div>
+
+       </div>
+     </div>
+   <script src="popup.js"></script>
+  </body>
+</html>

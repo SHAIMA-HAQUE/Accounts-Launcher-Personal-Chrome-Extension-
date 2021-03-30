@@ -1,0 +1,13 @@
+{
+  "manifest_version":2,
+  "name":"Accounts Launcher",
+  "description":"Quick Launch my Accounts",
+  "version": "0.0.1",
+  "icons":{"128":"images/icon_128.png"},
+  "browser_action":{
+    "default_icon":"images/icon_128.png",
+    "default_popup":"popup.html"
+
+  },
+  "permissions":["activeTab"]
+}
